@@ -1,45 +1,54 @@
 {
-    "name": "mgocobachi/collection",
-    "description": "A Collection class to manipulate the arrays with enriched routines and the ability of executing them in chain",
-    "keywords": ["collection", "array", "iterator", "php", "map", "reduce", "filter", "chain"],
-    "type": "library",
-    "license": "MIT",
-    "homepage": "https://www.github.com/mgocobachi/collection",
-    "support": {
-        "issues": "https://github.com/mgocobachi/collection/issues",
-        "source": "https://github.com/mgocobachi/collection"
-    },
-    "authors": [
-        {
-            "name": "Miguel Gocobachi",
-            "email": "miguel@gocobachi.mx"
-        }
-    ],
-    "autoload": {
-      "files": [
-        "src/Support/helpers.php"
-      ],
-      "psr-4": {
-        "Gocobachi\\": "src/"
-      }
-    },
-    "autoload-dev": {
-      "files": [
-        "src/Support/helpers.php"
-      ],
-      "psr-4": {
-        "Gocobachi\\Tests\\": "tests/src/"
-      }
-    },
-    "require": {
-      "php": "^7.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
+  "name": "mgocobachi/collection",
+  "description": "A Collection class to manipulate the arrays with enriched routines and the ability of executing them in chain",
+  "keywords": [
+    "collection",
+    "array",
+    "iterator",
+    "php",
+    "map",
+    "reduce",
+    "filter",
+    "chain"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://www.github.com/mgocobachi/collection",
+  "support": {
+    "issues": "https://github.com/mgocobachi/collection/issues",
+    "source": "https://github.com/mgocobachi/collection"
+  },
+  "authors": [
+    {
+      "name": "Miguel Gocobachi",
+      "email": "miguel@gocobachi.mx"
     }
+  ],
+  "autoload": {
+    "files": [
+      "src/Support/helpers.php"
+    ],
+    "psr-4": {
+      "Gocobachi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "src/Support/helpers.php"
+    ],
+    "psr-4": {
+      "Gocobachi\\Tests\\": "tests/src/"
+    }
+  },
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
 }

@@ -38,8 +38,8 @@ class Collection extends ArrayIterator
      */
     public function each(callable $callback)
     {
-        foreach ($this->all() as $element) {
-            $callback($element);
+        foreach ($this->all() as $key => $value) {
+            $callback($key, $value);
         }
 
         return $this;

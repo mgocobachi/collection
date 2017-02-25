@@ -51,7 +51,7 @@ use Gocobachi\Collection;
      public function testEach(): void
      {
          $users  = $expected = $this->getMockData();
-         $actual = collection($users)->each(function () {
+         $actual = collection($users)->each(function ($key, $value) {
          });
 
          $this->assertEquals($expected, $actual->all());
