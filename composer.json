@@ -15,7 +15,6 @@
             "email": "miguel@gocobachi.mx"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
       "files": [
         "src/Support/helpers.php"
