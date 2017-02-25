@@ -1,7 +1,7 @@
 {
     "name": "mgocobachi/collection",
     "description": "A Collection class to manipulate the arrays with enriched routines and the ability of executing them in chain",
-    "keywords": ["collection", "array", "php", "map", "reduce", "filter", "chain"],
+    "keywords": ["collection", "array", "iterator", "php", "map", "reduce", "filter", "chain"],
     "type": "library",
     "license": "MIT",
     "homepage": "https://www.github.com/mgocobachi/collection",
@@ -21,14 +21,26 @@
         "src/Support/helpers.php"
       ],
       "psr-4": {
-        "Gocobachi\\": "src/",
-        "GocobachiTest\\": "tests/src/"
+        "Gocobachi\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "files": [
+        "src/Support/helpers.php"
+      ],
+      "psr-4": {
+        "Gocobachi\\Tests\\": "tests/src/"
       }
     },
     "require": {
-      "php": "^7"
+      "php": "^7.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
