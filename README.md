@@ -1,3 +1,9 @@
+<p align="center">
+<a href="https://travis-ci.org/mgocobachi/collection"><img src="https://travis-ci.org/mgocobachi/collection.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/mgocobachi/collection"><img src="https://poser.pugx.org/mgocobachi/collection/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/mgocobachi/collection"><img src="https://poser.pugx.org/mgocobachi/collection/license.svg" alt="License"></a>
+</p>
+
 # Collection
 
 A Collection class to manipulate the arrays with
